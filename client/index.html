@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTTP List Management</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">  
+  <!-- the icon felt necessary -->
+</head>
+<body>
+
+  <div id="taskList">
+    <!-- Tasks will be inserted here -->
+    <h1> Task Manager</h1>
+  </div>
+  <header>
+    <!-- <h1></h1> -->
+    <form id="task">
+      <input type="text" id="task-input" placeholder="enter a task"/>
+      <input type="submit" id="submit-task" value="add task" />
+    </form>
+  </header>
+  <main>
+    <section class="task-list">
+      <h2>Tasks</h2>
+      <div id="tasks">
+        
+        </div>
+      </div>
+    </section>
+  </main>
+  <SCript src="Library.js"></SCript>
+  <script src="http_reqs.js"></script>
+</html>
